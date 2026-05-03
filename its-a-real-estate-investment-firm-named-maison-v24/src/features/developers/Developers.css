@@ -1,0 +1,17 @@
+
+.developers-section {
+  padding: 4rem 0;
+  background: #f8f9fa;
+}
+
+.developers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .developers-grid {
+    grid-template-columns: 1fr;
+  }
+}
